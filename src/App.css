@@ -379,7 +379,7 @@ section.Faq{
   text-align: center;
   padding: 20px;
 }
-@media (max-width: 768px){
+@media ((min-width: 20px) and (max-width: 768px)){
 div.righttogether{
   display: none;
 }
@@ -508,4 +508,59 @@ div.footright{
   margin: 0;
   /* background-color: #4F4D55; */
 }
+}
+@media ((min-width: 769px) and (max-width: 1199px)){
+  div.righttogether{
+    display: none;
+  }
+  div.icon{
+    display: contents;
+  }
+  section.Banner{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-size: cover;
+    gap: 2em;
+    background-position-x: -5em;
+    background-position-y: 0em;
+    padding: 20px 10px;
+  }
+  section.Banner div{
+    width: 80%;
+    margin: 0 auto;
+  }
+  div.Bannerleft h2{
+    font-size: 40px;
+    line-height: 1em;
+    padding: 10px;
+  }
+  div.companies{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;
+  }
+  div.codewrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+  div.codewrapper div{
+    width: 100%;
+  }
+  div.offdown{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  div.offdown div{
+    width: 100%;
+  }
+  div.offdown img{
+    width: 100%;
+  }
+  div.questioninner{
+    width: 100%;
+  }
+  div.queestionwrap{
+    width: 100%;
+  }
 }
