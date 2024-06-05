@@ -1,0 +1,35 @@
+[
+    {
+        "question": "Can I take a course for free?",
+        "see": "See the most common asked questions and their answers",
+        "learn": "learn More"
+
+    },
+    {
+        "question": "Will I take an assessment to start?",
+        "see": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "learn": "learn More"
+    },
+    {
+        "question": "How do I process Refunds?",
+        "see": "See the most common asked questions and their answers",
+        "learn": "learn More"
+
+    },
+    {
+        "question": "How to pay the tuition fee?",
+        "see": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "learn": "learn More"
+    },
+    {
+        "question": "Is the programs beginner-friendly?",
+        "see": "See the most common asked questions and their answers",
+        "learn": "learn More"
+
+    },
+    {
+        "question": "Can I transfer to another program after applying for one?",
+        "see": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "learn": "learn More"
+    }
+]
