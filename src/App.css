@@ -353,14 +353,16 @@ div.icon{
   top: 0;
   right: 0;
   height: 100vh;
-  width: 200px;
+  width: 100%;
   z-index: 999;
-  background-color: #ffffff58;
+  padding: 10px;
+  background-color: #ffffffd6;
   display: none;
   flex-direction: column;
+  gap: 1em;
   justify-content: flex-start;
+  list-style-type: none;
   align-items: flex-start;
-  backdrop-filter: blur(10px);
 }
 .sidebar li,.sidebar a{
   width: 100%;
@@ -384,28 +386,49 @@ section.Banner{
   grid-template-columns: 1fr;
   background-size: cover;
   gap: 2em;
-  background-position-x: -9em;
-  background-position-y: 0.5em;
+  background-position-x: -5em;
+  background-position-y: 0em;
   padding: 20px 30px;
   /* width: 100%; */
 }
+div.codewrapper div{
+  width: 100%;
+}
 div.Bannerleft h2{
-  font-size: 40px;
+  font-size: 30px;
+  line-height: 1em;
+  padding: 10px;
 }
 div.Bannerleft{
   width: 100%;
 }
 div.Bannerright{
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
+div.Bannerright form{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  /* padding: 20px; */
+}
+
 div.companies{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  width: 80%;
   gap: 2em;
 }
 div.companies img{
   width: 5em;
+}
+div.codewrapper div span{
+  padding: 10px;
+  box-shadow: 0 -0.2px 0 0 #fff;
+}
+div.code6{
+  background-position-x: -9em;
 }
 section.waitlist{
   width: 100%;
@@ -419,12 +442,16 @@ div.codewrapper{
   width: 100%;
 }
 section.offerings{
-  padding: 10px 0;
+  padding: 20px 0;
 }
 div.unlock{
-  font-size: 20px;
+  font-size: 18px;
   width: 100%;
 }
+div.unlock h1{
+  line-height: normal;
+}
+
 div.offdown{
   display: grid;
   grid-template-columns: 1fr;
@@ -435,16 +462,29 @@ div.offdown div{
   grid-template-columns: 1fr;
   gap: 2em;
 }
+div.queestionwrap{
+  width: 100%;
+}
 div.questioninner{
   width: 100%;
+}
+div.questioninner a{
+  width: 40%;
+}
+div.still{
+  width: 100%;
+}
+div.still button{
+  width: 80%;
 }
 div.questioninner button{
   width: 100%;
 }
 div.footerBottom{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
   width: 100%;
-  display: flex;
-  align-items: center;
 }
 div.footerTop{
   width: 40%;
@@ -453,10 +493,8 @@ div.footerTop{
   font-size: 0.5em;
 } */
 div.footright{
-  width: 40%;
+  width: 100%;
   margin: 0;
-  display: grid;
-  grid-template-columns: 1fr;
   /* background-color: #4F4D55; */
 }
 }
