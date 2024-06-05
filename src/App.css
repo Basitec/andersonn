@@ -438,6 +438,7 @@ div.code6{
   background-position-x: -9em;
 }
 section.waitlist{
+  /* text-align: left; */
   width: 100%;
 }
 section.waitlist h1{
@@ -458,7 +459,9 @@ div.unlock{
 div.unlock h1{
   line-height: normal;
 }
-
+div.offup p{
+  text-align: left;
+}
 div.offdown{
   display: grid;
   grid-template-columns: 1fr;
