@@ -364,6 +364,11 @@ div.icon{
   list-style-type: none;
   align-items: flex-start;
 }
+.sidebar li{
+  padding: 10px;
+  /* box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.3); */
+  box-shadow: 0 8px 6px rgba(0, 0, 0, 0.3);
+}
 .sidebar li,.sidebar a{
   width: 100%;
 }
@@ -406,11 +411,13 @@ div.Bannerright{
   margin: 0 auto;
   padding: 20px 20px;
 }
+div.Bannerright form h2{
+  font-size: 20px;
+}
 div.Bannerright form{
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.8em;
-  /* padding: 20px 0; */
 }
 
 div.companies{
@@ -469,7 +476,8 @@ div.questioninner{
   width: 100%;
 }
 div.questioninner a{
-  width: 40%;
+  /* background-color: #4F4D55; */
+  width: 60%;
 }
 div.still{
   width: 100%;
